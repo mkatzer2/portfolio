@@ -1,0 +1,22 @@
+* {
+  cursor: url(../images/afro-man-icon.png) 20 20, auto;
+}
+header {
+  background-color: white;
+  text-align: center;
+  color: rosybrown;
+  padding: 1% 1% 5% 1%;
+  border: 10px solid peachpuff;
+  font-family:Pacifico;
+}
+header a {
+  color: rosybrown;
+  background-color: white;
+  border: 5px solid peachpuff;
+  padding: 5px 5px 5px 5px;
+}
+body { 
+  background-color: rosybrown;
+  background-repeat: no-repeat;
+  background-size: 100% 15% ;
+}
