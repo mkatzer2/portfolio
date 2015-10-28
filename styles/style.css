@@ -1,13 +1,10 @@
-* {
-  cursor: url(../images/afro-man-icon.png) 20 20, auto;
-}
 header {
   background-color: white;
   text-align: center;
   color: rosybrown;
   padding: 1% 1% 5% 1%;
   border: 10px solid peachpuff;
-  font-family:Pacifico;
+  font-family:Pacifico, sans-serif;
 }
 header a {
   color: rosybrown;
@@ -15,8 +12,54 @@ header a {
   border: 5px solid peachpuff;
   padding: 5px 5px 5px 5px;
 }
-body { 
+
+body {
+  cursor: url(../images/afro-man-icon.png) 20 20, auto;
   background-color: rosybrown;
-  background-repeat: no-repeat;
-  background-size: 100% 15% ;
+}
+
+article { 
+  font-family:sans-serif;
+  color: white; 
+}
+.project-list {
+  height: auto;
+  width: autp;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: peachpuff;
+}
+.project-list figure {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  text-align: center;
+  border: 8px solid rosybrown;
+}
+.project-list img {
+  height: 70%;
+  width: height;
+  padding: 10% 10% 6% 10%;
+}
+article h3 {
+  font-family: Pacifico, sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-align: center;
+}
+.title { 
+  font-family: Pacifico, sans-serif;
+  font-size: 1.5rem;
+}
+footer {
+  background-color: white;
+  color: rosybrown;
+  padding: 3% 3% 1.5% 3%;
+  border: 10px solid peachpuff;
+  font-family: sans-serif;
+}
+.no-bullets {
+  list-style: none;
 }
