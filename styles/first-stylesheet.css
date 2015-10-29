@@ -6,42 +6,45 @@ header {
   border: 10px solid peachpuff;
   font-family:Pacifico, sans-serif;
 }
-header a {
+header a, article a {
   color: rosybrown;
   background-color: white;
   border: 5px solid peachpuff;
   padding: 5px 5px 5px 5px;
 }
-
+ a:hover {
+  background-color: lightgrey;
+}
 body {
-  cursor: url(../images/afro-man-icon.png) 20 20, auto;
+  cursor: url(../images/cinnamon-roll.jpg) 20 20, auto;
   background-color: rosybrown;
 }
-
 article { 
   font-family:sans-serif;
-  color: white; 
+  font-size: 1.3rem;
+  color: white;
+  margin: 5% 0 5% 0;
 }
 .project-list {
   height: auto;
-  width: autp;
+  width: auto;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
-  background-color: peachpuff;
+  margin: 0 0 4% 0;
 }
 .project-list figure {
   height: 200px;
   width: 200px;
   background-color: white;
   text-align: center;
-  border: 8px solid rosybrown;
+  border: 8px solid peachpuff;
 }
 .project-list img {
   height: 70%;
-  width: height;
-  padding: 10% 10% 6% 10%;
+  width: 70%;
+  padding: 6% 10% 2% 10%;
 }
 article h3 {
   font-family: Pacifico, sans-serif;
@@ -62,4 +65,13 @@ footer {
 }
 .no-bullets {
   list-style: none;
+}
+.image-within-text {
+  height: 25%;
+  width: 18%;
+  float: left;
+  margin: 2%;
+}
+ figure a {
+   border: 0;
 }
