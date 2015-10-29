@@ -13,7 +13,7 @@ header a, article a {
   border: 5px solid peachpuff;
   padding: 5px 5px 5px 5px;
 }
- a:hover {
+  header a:hover, footer a:hover {
   background-color: lightgrey;
 }
 body {
@@ -78,4 +78,9 @@ footer {
 }
  figure a {
    border: 0;
+}
+li figure:hover {
+-webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
