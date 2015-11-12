@@ -4,25 +4,29 @@
     <meta charset="utf-8" />
     <title> Monica's Portfolio Homepage</title>
     <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
-    <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
   
   <body id="homepage">
-    <header>
+    <header class="borderlights monoton">
     <!-- title (header), main nav; home and about, add more later-->
       <h3>Monica Katzer</h3>
       <h1>Web Development Portfolio</h1>
       <nav>
-        <a href="#">Home</a>
-        <a href="monicas-bio.html">About</a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="monicas-bio.html">About</a></li>
+        </ul>
       </nav>
     </header>
   
-    <article>
+    <article class="curtain-back homepage-article">
     <!-- list of projects; include for class and personal, use dummy links. Update: Use links in both image and caption-->
-      <h3>Projects</h3>
-      
-      <p class="title">For Class:</p>
+      <h3 class="monoton">Now Showing</h3>
+      <p class="title borderlights">Projects For Class:</p>
       <ul class="project-list no-bullets">
         <li>
           <figure>
@@ -56,7 +60,7 @@
             <a href="#">
               <img src="images/doraemon.jpg" alt="Doraemon">
             </a>
-            <figcaption><a href="#">Mock-up from Week 4</a></figcaption>
+            <figcaption><a href="http://mkatzer2.github.io/week4-practice/" target="_blank"> Week 4 Mock-up </a></figcaption>
           </figure>
         </li>
         
@@ -115,7 +119,7 @@
         </li>
       </ul>
       
-      <p class="title">Personal:</p>
+      <p class="title borderlights">Personal Projects:</p>
       <ul class="project-list no-bullets">
         <li>
           <figure>
@@ -176,22 +180,24 @@
     
     <footer>
     <!-- links to various things, contact info, secondary nav, copyright info-->
-      <nav>
+      <nav class="black-back">
         <a href="#">Home</a>
         <a href="monicas-bio.html">About</a>
       </nav>
-      <h3>Connect with Monica:</h3>
-      <ul class="no-bullets">
-        <li>
-          <a href="mailto:moniwebdevelopment@gmail.com">Email - moniwebdevelopment at gmail.com</a>
-        </li>
-        
-        <li>
-          <a href="https://www.linkedin.com/pub/monica-katzer/88/459/435" target="_blank">LinkedIn</a>
-        </li>
-      </ul>
-      <p>&copy; 2015 Monica Katzer</p>
-      <nav>
+      <p class="copyright" >&copy; 2015 Monica Katzer</p>
+      <a href="https://www.facebook.com/monica.katzer?fref=ts" target="_blank">
+        <i class="fa fa-facebook-square fa-4x social-icon left-icon"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/monica-katzer-43545988" target="_blank">
+        <i class="fa fa-linkedin-square fa-4x social-icon left-icon"></i>
+      </a>
+      <a href="https://github.com/mkatzer2" target="_blank">
+        <i class="fa fa-github-square fa-4x right-icon social-icon"></i>
+      </a>
+      <a href="mailto:moniwebdevelopment@gmail.com">
+        <i class="fa fa-envelope-o fa-4x right-icon social-icon"></i>
+      </a>
+      <nav class="black-back">
         <a href="#">^ Back to top ^</a>
       </nav>
     </footer>

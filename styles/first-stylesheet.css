@@ -1,30 +1,45 @@
+body {
+  cursor: url(../images/movie-clicker.png) 20 20, auto;
+  font-family: Oxygen, sans-serif;
+}
 header {
-  background-color: white;
+  background-color: darkred;
   text-align: center;
-  color: rosybrown;
+  color: white;
   padding: 1% 1% 5% 1%;
-  border: 10px solid peachpuff;
-  font-family:Pacifico, sans-serif;
+  border: 25px solid transparent;
   border-radius: 5px;
+  
+}
+header h1 { padding: 0 0 2% 0;}
+header ul { margin: 0 3.2% 0 0; }
+header li { 
+  list-style: none;
+  display: inline;
+  margin: 0 1%; 
 }
 header a, article a {
-  color: rosybrown;
+  color: #2B1596;
   background-color: white;
-  border: 5px solid peachpuff;
-  padding: 5px 5px 5px 5px;
+  border: 5px solid black;
+  padding: 8px;
 }
-  header a:hover, footer a:hover {
+header a:hover {
   background-color: lightgrey;
 }
-body {
-  cursor: url(../images/cinnamon-roll.png) 20 20, auto;
-  background-color: rosybrown;
-}
-article { 
-  font-family:sans-serif;
+.homepage-article { 
   font-size: 1.3rem;
   color: white;
-  margin: 5% 0 5% 0;
+  margin: 0 0 5% 0;
+}
+.about-article { 
+  font-size: 1.3rem;
+  margin: 4% 10%;
+}
+.curtain-back {  
+  background-image: url(../images/curtain-back.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .project-list {
   height: auto;
@@ -40,47 +55,95 @@ article {
   width: 200px;
   background-color: white;
   text-align: center;
-  border: 8px solid peachpuff;
+  border: 8px solid black;
   border-radius: 5px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
 }
 .project-list img {
   height: 70%;
   width: 70%;
   padding: 6% 10% 2% 10%;
 }
+.monoton { font-family: Monoton, sans-serif;}
 article h3 {
-  font-family: Pacifico, sans-serif;
-  font-size: 2rem;
+  font-size: 6rem;
   text-decoration: underline;
   text-align: center;
+  margin: 0;
+  padding: 15% 0 12% 0;
 }
 .title { 
-  font-family: Pacifico, sans-serif;
-  font-size: 1.5rem;
+  font-family: "Sigmar One", sans-serif;
+  font-size: 1.8rem;
+  background: white;
+  color: black;
+  border: 15px solid transparent;
+  border-right: white;
+  border-left: white;
 }
 footer {
-  background-color: white;
-  color: rosybrown;
-  padding: 3% 3% 1.5% 3%;
-  border: 10px solid peachpuff;
-  border-radius: 5px;
-  font-family: sans-serif;
-  
+  background-image: url(../images/poppin.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-color: darkred;
 }
 .no-bullets {
   list-style: none;
 }
-.image-within-text {
+.about-article img {
   height: 25%;
   width: 18%;
   float: left;
-  margin: 2%;
+  margin: 1.5% 2.5% 0 0;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
 }
  figure a {
    border: 0;
+   background-color: transparent;
 }
 li figure:hover {
--webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: inset 0px 0px 15px 0px rgba(255,251,130,0.91);
+-moz-box-shadow: inset 0px 0px 15px 0px rgba(255,251,130,0.91);
+box-shadow: inset 0px 0px 15px 0px rgba(255,251,130,0.91);
 }
+
+.borderlights { 
+  border-image: url(../images/movie-borders.png) 100 round; 
+}
+.black-back {
+  background-color: black;
+  padding: 0.5%;
+  color: white;
+}
+.black-back a { 
+  color: white;
+  padding: 1%;
+}
+.copyright { 
+  float: right;
+  padding: 1%;
+  position: relative;
+  top: 70px;
+  right: 35px;
+  color: white;
+}
+.black-text { color: black;}
+.right-icon { 
+  float: right;
+  position: relative;
+  left: 10%;}
+.left-icon {
+  position: relative;
+  left: 3.2%;
+}
+.social-icon { 
+  color: white;
+  margin: 1%;
+}
+.social-icon:hover { color: yellow; }
+              
