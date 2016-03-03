@@ -41,30 +41,33 @@ header a:hover {
   background-size: cover;
   background-position: center;
 }
+
 .project-list {
-  height: auto;
-  width: auto;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 0 4% 0;
+  padding: 0;
 }
 .project-list figure {
-  height: 200px;
-  width: 200px;
-  background-color: white;
+  width: 30%;
+  padding-top: 3%;
+  float: left;
+  margin: 8% 0;
+  margin-bottom: 10%;
+  margin-left: 2.5%;
   text-align: center;
   border: 8px solid black;
-  border-radius: 5px;
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black;
+  background-image: url(../images/glass.png);
+  background-size: cover;
 }
+
+.clearfix {
+  clear: both;
+}
+
 .project-list img {
-  height: 70%;
-  width: 70%;
-  padding: 6% 10% 2% 10%;
+  width: 90%;
+  border-radius: 2px;
 }
 .monoton { font-family: Monoton, sans-serif;}
 article h3 {
@@ -76,19 +79,17 @@ article h3 {
 }
 .title { 
   font-family: "Sigmar One", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   background: white;
   color: black;
   border: 15px solid transparent;
   border-right: white;
   border-left: white;
+  padding: 1% 0;
 }
 footer {
-  background-image: url(../images/poppin.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
   background-color: darkred;
+  font-size: 1.5rem;
 }
 .no-bullets {
   list-style: none;
@@ -107,9 +108,9 @@ footer {
    background-color: transparent;
 }
 li figure:hover {
--webkit-box-shadow: inset 0px 0px 15px 0px rgba(255,251,130,0.91);
--moz-box-shadow: inset 0px 0px 15px 0px rgba(255,251,130,0.91);
-box-shadow: inset 0px 0px 15px 0px rgba(255,251,130,0.91);
+-webkit-box-shadow: inset 0px 0px 15px 0px rgba(255, 255, 179, 0.85);
+-moz-box-shadow: inset 0px 0px 15px 0px rgba(255, 255, 179, 0.85);
+box-shadow: inset 0px 0px 30px 0px rgba(255, 255, 179, 0.85);
 }
 
 .borderlights { 
@@ -117,33 +118,63 @@ box-shadow: inset 0px 0px 15px 0px rgba(255,251,130,0.91);
 }
 .black-back {
   background-color: black;
-  padding: 0.5%;
+  padding: 1%;
   color: white;
 }
 .black-back a { 
   color: white;
   padding: 1%;
 }
+
 .copyright { 
   float: right;
-  padding: 1%;
-  position: relative;
-  top: 70px;
-  right: 35px;
   color: white;
+  display: inline;
+  margin-right: 2%;
 }
 .black-text { color: black;}
-.right-icon { 
-  float: right;
-  position: relative;
-  left: 10%;}
-.left-icon {
-  position: relative;
-  left: 3.2%;
+
+.icon-box {
+  text-align: center;
+  padding: 2.5%;
 }
+
 .social-icon { 
   color: white;
-  margin: 1%;
+  background-color: black;
+  padding: 3%;
+  border: 0.5px solid black;
+  border-radius: 3px; 
+  font-size: 5rem;
+  margin: 0 5%;
 }
 .social-icon:hover { color: yellow; }
-              
+  
+
+.project-container {
+  width: 85%;
+  margin: auto;
+  background-color: white;
+  border: 15px solid black;
+  padding-bottom: 30%;
+  background-image: url(../images/spotlight.jpg);
+  background-size: cover;
+}
+
+
+.popcorn {
+  height: 11rem;
+  background-image: url(../images/poppin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+
+figure a {
+  color: black;
+  font-size: 2rem;
+}
+
+figcaption {
+  padding: 6%;
+}
