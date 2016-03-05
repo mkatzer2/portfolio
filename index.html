@@ -17,8 +17,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     
     <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+    
+    <!-- Personal Stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
     
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    
+    <!-- TweenMax from GreenSock Animation -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"> </script>
   </head>
   
   <body id="homepage">
@@ -27,12 +34,17 @@
     <!-- title (header), main nav; home and about, add more later-->
       <h3>Monica Katzer</h3>
       <h1>Web Development Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="monicas-bio.html">About</a></li>
-        </ul>
-      </nav>
+      <div class="drop-down">
+          <button id="hamburger-button" class="ham-btn"><i class="fa fa-bars fa-3x"></i></button>
+          <h2 class="ham-title">Home</h2>
+          <nav id="hamburger-menu" class="ham-menu">
+            <ul>
+              <li class="nohover"><h3>Monica's Portfolio</h3></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="monicas-bio.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
     </header>
   
     <article class="curtain-back homepage-article">
@@ -173,5 +185,6 @@
       </div>
     </footer>
     </div>
+    <script src="javascript/portfolio.js"></script>
   </body>
 </html>

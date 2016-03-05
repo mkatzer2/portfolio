@@ -38,18 +38,29 @@
     
     <!-- Personal stylesheets -->
     <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+    
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    
+    <!-- TweenMax from GreenSock Animation -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"> </script>
   </head>
 
   <body id="about" class="spotlight">
     <div class="container-fluid">
       <header class="borderlights monoton">
         <h1>About Monica</h1>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">About</a></li>
-          </ul>
-        </nav>
+        <div class="drop-down">
+          <button id="hamburger-button" class="ham-btn"><i class="fa fa-bars fa-3x"></i></button>
+          <h2 class="ham-title">About</h2>
+          <nav id="hamburger-menu" class="ham-menu">
+            <ul>
+              <li class="nohover"><h3>Monica's Portfolio</h3></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </nav>
+        </div>
       </header>
       <article class="black-text about-article">
         <img src="images/monica-bio-about.jpg" alt="Picture of Monica" class="moni-pic">
@@ -128,5 +139,6 @@
         </div>
       </footer>
     </div>
+    <script src="javascript/portfolio.js"></script>
   </body>
 </html>
