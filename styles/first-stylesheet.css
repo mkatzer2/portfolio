@@ -273,7 +273,12 @@ figcaption {
     display: none;
     
   }
-  
+  .showing {
+    font-size: 4rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+  }
   header {
     width:100%;
     border: 10px;
@@ -286,8 +291,9 @@ figcaption {
     position: relative;
     top: 100px; 
     width: 100%;
-    margin: 0;
+    margin: auto;
   }
+  
   html {
   width: 100%;  
   }
