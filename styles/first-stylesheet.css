@@ -277,6 +277,7 @@ figcaption {
     font-size: 4rem;
     padding-left: 15%;
     padding-right: 15%;
+    text-decoration: none;
     
   }
   header {
