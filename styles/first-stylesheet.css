@@ -294,6 +294,7 @@ figcaption {
     margin: auto;
   }
   
+  
   html {
   width: 100%;  
   }
@@ -397,7 +398,7 @@ figcaption {
     .project-container {
       background-image: none;
       background-color: black;
-      padding-bottom: 180%;
+      padding-bottom: 190%;
     }
   
     .learning, .experience {
