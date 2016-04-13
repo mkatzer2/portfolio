@@ -464,3 +464,25 @@ figcaption {
   
   
 }
+
+.new {
+ position: relative; 
+  
+}
+
+.new span {
+  position: absolute;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 2%;
+  font-weight: bold;
+  font-size: 1.5rem;
+  top: 8%;
+  right: 5%;
+}
+
+.just-finished span {
+  background-color: deepskyblue;
+  border-color: deepskyblue;  
+}
